@@ -28,7 +28,7 @@ reports:
       display: "Log file"
 
    execution_trace_2021-07-29_07-12-59.txt:
-      display: "TXT file"
+      display: "JSON file"
 
    genome.dict:
       display: "DICT file"
