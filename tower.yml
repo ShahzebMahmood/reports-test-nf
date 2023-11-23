@@ -27,7 +27,7 @@ reports:
    CAPES_S7.log:
       display: "Log file"
 
-   execution_trace_2021-07-29_07-12-59.txt:
+   execution_trace_2021-07-29_07-12-59.json:
       display: "JSON file"
 
    genome.dict:
