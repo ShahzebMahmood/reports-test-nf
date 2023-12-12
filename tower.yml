@@ -12,7 +12,7 @@ reports:
    taxonomy.krona.html:
       display: "Taxonomy"
 
-   nfcore_chipseq110_samplesheet_test_full_6cols.csv:
+   nfcore_chipseq110_samplesheet_test_full_6cols.json:
       display: "nfcore_chipseq110_samplesheet_test_full_6cols"
 
    all_sites.fas:
