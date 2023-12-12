@@ -26,7 +26,7 @@ process REPORTS {
     val multiqc_reports from reports.collect()
     path(bin_depths_summary_tsv) from Channel.of("${projectDir}/resources/bin_depths_summary.tsv")
     path(bin_summary_tsv) from Channel.of("${projectDir}/resources/bin_summary.tsv")
-    path(CAPES_S7_log) from Channel.of("${projectDir}/resources/CAPES_S7.log")
+    path(CAPES_S7_log) from Channel.of("${projectDir}/resources/CAPES_S7.json")
     path(execution_trace_txt) from Channel.of("${projectDir}/resources/execution_trace_2021-07-29_07-12-59.txt")
     path(kraken2_report_txt) from Channel.of("${projectDir}/resources/kraken2_report.txt")
     path(pipeline_dag_svg) from Channel.of("${projectDir}/resources/pipeline_dag_2021-07-29_07-12-59.svg")
@@ -55,7 +55,7 @@ process REPORTS {
     path(test2_targets_tsv_gz) from Channel.of("${projectDir}/resources/test2.targets.tsv.gz")
     path(transcriptome_paf) from Channel.of("${projectDir}/resources/transcriptome.paf")
     path(report_pdf) from Channel.of("${projectDir}/resources/report.pdf")
-    path(samplesheet_csv) from Channel.of("${projectDir}/resources/nfcore_chipseq110_samplesheet_test_full_6cols.csv")
+    path(samplesheet_csv) from Channel.of("${projectDir}/resources/nfcore_chipseq110_samplesheet_test_full_6cols.json")
 
 
     output:
@@ -75,7 +75,7 @@ process REPORTS {
         path(all_sites_fas),
         path(baits_bed),
         path(genome_dict),
-        path(samplesheet_csv),
+        path(samplesheet_json),
         path(genome_fasta_fai),
         path(genome_gff3),
         path(genome_gtf),
