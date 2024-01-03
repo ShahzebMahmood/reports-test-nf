@@ -12,8 +12,11 @@ reports:
    taxonomy.krona.html:
       display: "Taxonomy"
 
-   nfcore_chipseq110_samplesheet_test_full_6cols.json:
+   nfcore_chipseq110_samplesheet_test_full_6cols.csv:
       display: "nfcore_chipseq110_samplesheet_test_full_6cols"
+
+   nfcore_rnaseq_test_full_GM12878_REP2.featureCounts.txt:
+      display: "nfcore_rnaseq_test_full_GM12878_REP2.featureCounts.txt"
 
    all_sites.fas:
       display: "FAS file"
@@ -24,11 +27,11 @@ reports:
    bin_depths_summary.tsv:
       display: "TSV file"
 
-   CAPES_S7.json:
-      display: "JSON file"
+   CAPES_S7.log:
+      display: "Log file"
 
-   execution_trace_2021-07-29_07-12-59.json:
-      display: "JSON file"
+   execution_trace_2021-07-29_07-12-59.txt:
+      display: "TXT file"
 
    genome.dict:
       display: "DICT file"
@@ -71,3 +74,6 @@ reports:
 
    transposed_report.tex:
       display: "TEX file"
+   
+   report.json:
+      display: "JSON file"
